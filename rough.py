@@ -107,5 +107,6 @@
 
 # print(user_db)
 
-
-print("hello world")
+n=5
+zero=0
+print(zero or n)

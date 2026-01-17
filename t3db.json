@@ -1,0 +1,29 @@
+{
+    "0": {
+        "username": "Gibhon Adhikari",
+        "user_email": "admin@gmail.com",
+        "user_password": "AdminPassword123",
+        "user_role": "admin",
+        "user_gender": "male",
+        "user_phone_no": "980",
+        "user_address": "Pokhara,Nepal"
+    },
+    "1": {
+        "username": "Sita Adhikari",
+        "user_email": "sita@gmail.com",
+        "user_password": "SNvJlssGPOFU",
+        "user_role": "staff",
+        "user_gender": "female",
+        "user_phone_no": "Not recorded",
+        "user_address": "Mustang, Nepal"
+    },
+    "2": {
+        "username": "Gita Bastola",
+        "user_email": "gita@gmail.com",
+        "user_password": "hMcaQ*vTO8V#",
+        "user_role": "admin",
+        "user_gender": "female",
+        "user_phone_no": "Not recorded",
+        "user_address": "Not recorded"
+    }
+}
