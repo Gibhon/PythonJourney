@@ -107,6 +107,31 @@
 
 # print(user_db)
 
-n=5
-zero=0
-print(zero or n)
+def increment_string(s):
+    i = len(s) - 1
+    while i >= 0 and s[i].isdigit():
+        i -= 1
+    
+    # After the loop, everything from i+1 to the end is our number
+    prefix = s[:i+1]      # The "text" part (e.g., "file")
+    num_part = s[i+1:]    # The "number" part (e.g., "09")
+
+    # 2. Logic: If no numbers were found, just add "1"
+    if not num_part:
+        return s + "1"
+
+    # 3. Increment and keep the padding (the 0s)
+    new_num = int(num_part) + 1
+    
+    # .zfill(len(num_part)) makes sure "09" becomes "10" and "001" becomes "002"
+    return prefix + str(new_num).zfill(len(num_part))
+
+# Examples:
+print(increment_string("hello"))    # hello1
+print(increment_string("file09"))   # file10
+print(increment_string("item001"))  # item002
+        
+
+        
+        
+
